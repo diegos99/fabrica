@@ -1,0 +1,5 @@
+net.guides.springboot.crud.exception
+net.guides.springboot.crud.model
+net.guides.springboot.crud.repository
+net.guides.springboot.crud.service
+net.guides.springboot2.springboot2jpacrudexample
