@@ -9,6 +9,7 @@
 		<version>2.1.0.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	<packaging>war</packaging>
 	<groupId>net.springboot.javaguides</groupId>
 	<artifactId>springboot-mongodb-crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
