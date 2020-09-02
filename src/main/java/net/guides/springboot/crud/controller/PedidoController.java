@@ -41,7 +41,7 @@ public class PedidoController {
 	}
 	// Esto es una prueba
 	@GetMapping("/pedidos/{id}")
-	public ResponseEntity<Pedido> getProductoById(@PathVariable(value = "id") Long productoId)
+	public ResponseEntity<Pe getProductoById(@PathVariable(value = "id") Long productoId)
 			throws ResourceNotFoundException {
 		Pedido pedido = repository.findById(productoId)
 				.orElseThrow(() -> new ResourceNotFoundException("Vehiculo not found for this id :: " + productoId));
