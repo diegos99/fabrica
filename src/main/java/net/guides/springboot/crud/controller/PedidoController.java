@@ -39,7 +39,7 @@ public class PedidoController {
 	public List<Pedido> getAllProductos() {
 		return repository.findAll();
 	}
-
+	// Esto es una prueba
 	@GetMapping("/pedidos/{id}")
 	public ResponseEntity<Pedido> getProductoById(@PathVariable(value = "id") Long productoId)
 			throws ResourceNotFoundException {
